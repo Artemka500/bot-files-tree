@@ -1,46 +1,46 @@
 ## Иерархия файлов и папок:
 
 ```
-├── .env<br>
-├── .gitignore<br>
-├── [Папка] bot<br>
-│   ├── __init__.py<br>
-│   ├── [Папка] core<br>
-│   │   ├── __init__.py<br>
-│   │   ├── bot.py<br>
-│   │   ├── dispatcher.py<br>
-│   │   └── scheduler.py<br>
-│   ├── [Папка] data<br>
-│   │   ├── __init__.py<br>
-│   │   └── settings.py<br>
-│   ├── [Папка] database<br>
-│   │   ├── database.db<br>
-│   │   └── sqlite3.py<br>
-│   ├── [Папка] filters<br>
-│   │   ├── __init__.py<br>
-│   │   └── filters.py<br>
-│   ├── [Папка] handlers<br>
-│   │   ├── __init__.py<br>
-│   │   ├── [Папка] admin<br>
-│   │   │   ├── __init__.py<br>
-│   │   │   └── admin_info.py<br>
-│   │   ├── help.py<br>
-│   │   ├── start.py<br>
-│   │   └── [Папка] user<br>
-│   │       └── __init__.py<br>
-│   ├── [Папка] keyboards<br>
-│   │   ├── inline.py<br>
-│   │   └── reply.py<br>
-│   ├── [Папка] library<br>
-│   │   └── __init__.py<br>
-│   ├── [Папка] middlewares<br>
-│   │   ├── __init__.py<br>
-│   │   └── misc.py<br>
-│   └── [Папка] utils<br>
-│       ├── __init__.py<br>
-│       ├── helpers.py<br>
-│       └── logger.py<br>
-├── [Папка] logs<br>
-│   └── bot.log<br>
-└── main.py<br>
+├── .env
+├── .gitignore
+├── [Папка] bot
+│   ├── __init__.py
+│   ├── [Папка] core
+│   │   ├── __init__.py
+│   │   ├── bot.py
+│   │   ├── dispatcher.py
+│   │   └── scheduler.py
+│   ├── [Папка] data
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   ├── [Папка] database
+│   │   ├── database.db
+│   │   └── sqlite3.py
+│   ├── [Папка] filters
+│   │   ├── __init__.py
+│   │   └── filters.py
+│   ├── [Папка] handlers
+│   │   ├── __init__.py
+│   │   ├── [Папка] admin
+│   │   │   ├── __init__.py
+│   │   │   └── admin_info.py
+│   │   ├── help.py
+│   │   ├── start.py
+│   │   └── [Папка] user
+│   │       └── __init__.py
+│   ├── [Папка] keyboards
+│   │   ├── inline.py
+│   │   └── reply.py
+│   ├── [Папка] library
+│   │   └── __init__.py
+│   ├── [Папка] middlewares
+│   │   ├── __init__.py
+│   │   └── misc.py
+│   └── [Папка] utils
+│       ├── __init__.py
+│       ├── helpers.py
+│       └── logger.py
+├── [Папка] logs
+│   └── bot.log
+└── main.py
 ```
