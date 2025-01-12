@@ -1,6 +1,9 @@
-<h1 align="center">Иерархия файлов и папок:</a>
+## Иерархия файлов и папок:
+***
+<!-- <h1 align="center">Иерархия файлов и папок:</a> -->
 
-<h3 style="font-family: 'JetBrains Mono'">
+<!-- <h3 style="font-family: 'JetBrains Mono'"> -->
+```
 ├── .env<br>
 ├── .gitignore<br>
 ├── [Папка] bot<br>
@@ -43,3 +46,4 @@
 ├── [Папка] logs<br>
 │   └── bot.log<br>
 └── main.py<br>
+```
